@@ -647,7 +647,15 @@ const ResourcesSection = () => {
 
 const GallerySection = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const galleryItems = [...IMAGES, ...IMAGES.slice(0, 2)];
+  const galleryItems = [
+    'https://bd.intexsouthasia.com/assets/img/Gallery/2025/1.png',
+    'https://bd.intexsouthasia.com/assets/img/Gallery/2024/large/1.jpg',
+    'https://bd.intexsouthasia.com/assets/img/Gallery/2025/8.png',
+    'https://bd.intexsouthasia.com/assets/img/Gallery/2025/17A.png',
+    'https://sl.intexsouthasia.com/assets/img/Gallery/2025/1.jpg',
+    'https://sl.intexsouthasia.com/assets/img/Gallery/2025/7.jpg'
+
+  ];
 
   return (
     <section className="bg-white border-t border-black/10 py-32 relative">
@@ -785,7 +793,7 @@ const ContactSection = () => {
                <div className="group relative">
                   <label className="block font-mono text-[10px] uppercase tracking-widest text-gray-500 mb-2">03 // Payload</label>
                   <textarea 
-                    placeholder="PROJECT DETAILS..." 
+                    placeholder="ENTER DETAILS..." 
                     rows={4}
                     className="w-full bg-transparent border-b border-black py-4 font-mono text-lg outline-none focus:border-[var(--focus-color)] transition-colors placeholder:text-black/30 resize-none"
                     style={{ '--focus-color': BRAND_COLORS[3] } as React.CSSProperties}
