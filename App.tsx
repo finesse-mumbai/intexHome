@@ -352,7 +352,7 @@ const StatsSection = () => {
 const EventsList = () => {
   return (
     <section className="py-32 bg-white relative">
-      <DotPattern opacity={0.3} />
+      <DotPattern opacity={0.1} />
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-end mb-20 pb-6 border-b-2 border-black">
            <Reveal>
