@@ -712,7 +712,7 @@ const GallerySection = () => {
                       <h4 className="text-white text-3xl md:text-5xl font-black uppercase tracking-tighter leading-none mb-2 drop-shadow-lg">
                         {['Bangladesh - 2022', 'Sri Lanka - 2022', 'India 2022', 'Bangladesh - 2023', 'Sri Lanka - 2023', 'Bangladesh - 2024', 'Sri Lanka - 2024'][index]}
                       </h4>
-                      <p className="text-white/80 font-mono text-xs uppercase tracking-widest">
+                      <p className="text-black/80 font-mono text-xs uppercase tracking-widest">
                          View Details
                       </p>
                     </div>
