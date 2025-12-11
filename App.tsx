@@ -80,10 +80,10 @@ const EVENTS = [
 ];
 
 const STATS = [
-  { label: "Business Generated", value: "₹5000Cr+" },
+  { label: "Business Generated", value: "₹100Cr+" },
   { label: "Exhibitor Satisfaction", value: "98%" },
   { label: "Countries Reached", value: "120+" },
-  { label: "Growth YoY", value: "100%" }
+  { label: "Growth YoY", value: "96%" }
 ];
 
 const BUYER_CATEGORIES = [
@@ -857,8 +857,8 @@ const Footer = () => {
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-32">
           <div className="col-span-1 md:col-span-1 pr-8">
-             <div className="w-16 h-16 text-white flex items-center justify-center font-mono text-2xl font-bold mb-8" style={{ backgroundColor: BRAND_COLORS[0] }}>
-               I
+             <div className="w-30  h-18 text-white flex flex-start font-mono text-2xl font-bold mb-8" >
+                <img className="w-36" src="https://bd.intexsouthasia.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.ff36e4e2.png&w=384&q=75" alt="img" />
              </div>
              <p className="font-mono text-xs text-gray-500 leading-relaxed uppercase tracking-wide">
                The platform for the textile industry.<br/>
